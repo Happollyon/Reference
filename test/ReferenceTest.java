@@ -23,24 +23,28 @@ public class ReferenceTest {
          r.setAutor(autor);
          Assertions.assertEquals(autor,r.getAutor());
     }
+    @Test
      public void testSetAndGetYear()throws Exception {
          String Year = "2011";
          Reference r = new Reference();
          r.setYear(Year);
          Assertions.assertEquals(Year,r.getYear());
     }
+     @Test
      public void testSetAndGetId()throws Exception {
          int id = 1;
          Reference r = new Reference();
          r.setId(id);
          Assertions.assertEquals(id,r.getYear());
     }
+     @Test
     public void testSetAndGetTitle()throws Exception {
          String title = "test";
          Reference r = new Reference();
          r.setTitle(title);
          Assertions.assertEquals(title,r.getYear());
     }
+    @Test
     public void testSetAndGetPlace()throws Exception {
          String place = "Dublin";
          Reference r = new Reference();
